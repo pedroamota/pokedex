@@ -1,16 +1,30 @@
-# notes
+📱 Projeto Pokédex Flutter - Consumindo a PokeAPI com REST API
+Este projeto é uma aplicação mobile desenvolvida em Flutter, que simula uma Pokédex, permitindo ao usuário visualizar uma lista de Pokémon, acessar detalhes individuais e salvar favoritos. A aplicação consome dados em tempo real da PokeAPI, uma REST API pública que fornece informações completas sobre o universo Pokémon.
 
-A new Flutter project.
+🧱 Tecnologias Utilizadas
+Flutter (Dart)
 
-## Getting Started
+HTTP Package para requisições REST
 
-This project is a starting point for a Flutter application.
+PokeAPI (https://pokeapi.co/)
 
-A few resources to get you started if this is your first Flutter project:
+Provider
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+FutureBuilder para carregamento assíncrono
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Animações leves e UI customizada com Material Design
+
+🧩 Funcionalidades
+Listagem de Pokémon com paginação.
+
+Exibição do nome e imagem oficial de cada Pokémon.
+
+Tela de detalhes com:
+
+Tipos
+
+Altura e peso
+
+Habilidades
+
+Modo dark/light.
